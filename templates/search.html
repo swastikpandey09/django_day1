@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health is Wealth</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for macOS and iPhone feel */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+            background-image: url("data:image/jpeg;base64,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");
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            /* Replace these colors with your desired shades of purple and pink */
+            background: linear-gradient(45deg, #8e44ad, #c0392b);
+            /* You can adjust the angle (45deg) and color codes (#8e44ad, #c0392b) */
+            width: 100%;
+            height: 100%%; /* Adjust height as needed */
+        }
+        .input-field {
+            width: calc(100% - 110px);
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+        .btn-search {
+            width: 110px;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007aff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-search:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-10 flex justify-center">
+        <div class="flex justify-center">
+            <form method="post" action="{% url 'submit' %}" class = "flex justify-center">
+                {% csrf_token %}
+                <input class="input-field" id="text_input" name="text_input">
+                <button type="submit" class="btn-search">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

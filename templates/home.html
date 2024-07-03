@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthisrealwealth</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .neumorph {
+            background: #f0f0f0;
+            border-radius: 15px;
+            box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .neumorph:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="container mx-auto p-6">
+        <!-- Header Section -->
+        <header class="mb-10 glass p-4">
+            <div class="flex justify-between items-center">
+                <span class="text-3xl font-bold text-gray-700">wellth</span>
+                <nav>
+                    <ul class="flex space-x-4 text-gray-700">
+                        <li><a href="" class="hover:text-gray-900">Home</a></li>
+                        <li><a href="/about_us" class="hover:text-gray-900">About</a></li>
+                        <li><a href="/search" class="hover:text-gray-900">main page</a></li>
+                        <li><a href="/contact" class="hover:text-gray-900">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Slider Section -->
+        <section class="glass p-6 mb-10">
+            <div class="grid grid-cols-1 gap-6">
+                <div class="neumorph p-6">
+                    <h1 class="text-4xl font-bold text-gray-700 mb-4">We Provide Best Healthcare Products</h1>
+                    <p class="text-gray-600 mb-4">We will provide one of the world's best products for your health using vestige and the World Health Organization (WHO).</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Read More</button>
+                </div>
+                <div class="neumorph p-6">
+                    <h1 class="text-4xl font-bold text-gray-700 mb-4">We Provide Best Healthcare</h1>
+                    <p class="text-gray-600 mb-4">This website is a way to help everybody who deserves wellth (health + wealth) in his life.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Department Section -->
+        <section class="glass p-6 mb-10">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl font-bold text-gray-700">Our Departments</h2>
+                <p class="text-gray-600">We are from vestige health care department</p>
+            </div>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Products</h5>
+                    <p class="text-gray-600">We provide products to those people who don't have any disease/have any disease.</p>
+                </div>
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Diagnosis</h5>
+                    <p class="text-gray-600">We provide demos of every one of our products.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="glass p-6 mb-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="neumorph p-6">
+                    <div class="text-center mb-6">
+                        <h2 class="text-3xl font-bold text-gray-700">About <span class="text-blue-500">Us</span></h2>
+                    </div>
+                    <p class="text-gray-600 mb-4">We are one of those companies who provide products to stay healthy too.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Members Section -->
+        <section class="glass p-6 mb-10">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl font-bold text-gray-700">Our Members</h2>
+                <p class="text-gray-600">In creating this company, website, and in helping the company to grow, there is a main role of some people.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Manoj Verma</h5>
+                    <h6 class="text-gray-600">Member</h6>
+                </div>
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Swastik Pandey</h5>
+                    <h6 class="text-gray-600">Creator of Website</h6>
+                </div>
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Gautam Bali</h5>
+                    <h6 class="text-gray-600">Owner of Vestige</h6>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="glass p-6 mb-10">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl font-bold text-gray-700">Get In Touch</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <form action="#">
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <input type="text" placeholder="Your Name" class="p-3 rounded glass">
+                            <input type="text" placeholder="Phone Number" class="p-3 rounded glass">
+                        </div>
+                        <input type="email" placeholder="Email" class="w-full p-3 mb-4 rounded glass">
+                        <input type="text" placeholder="Message" class="w-full p-3 mb-4 rounded glass">
+                        <a href = "/verified" class="bg-blue-500 text-white px-4 py-2 rounded">Send</a>
+                    </form>
+                </div>
+                <div class="glass h-64"></div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="glass p-6 mb-10">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl font-bold text-gray-700">Testimonial</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Manoj Verma</h5>
+                    <p class="text-gray-600">Diamond Director at Vestige Marketing Pvt. Ltd. at Vestige</p>
+                </div>
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Swastik Pandey</h5>
+                    <p class="text-gray-600">Creator of Website</p>
+                </div>
+                <div class="neumorph p-6 text-center">
+                    <h5 class="text-xl font-bold text-gray-700 mb-4">Gautam Bali</h5>
+                    <p class="text-gray-600">Owner of the Company</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="glass p-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div>
+                    <h4 class="text-xl font-bold text-gray-700 mb-4">Reach at..</h4>
+                    <p class="text-gray-600">Panki, Kanpur</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-700 mb-4" href = "/contact">Contact us</h4>
+                    <p class="text-gray-600">manoj3477@rediffmail.com</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-700 mb-4">Social Media</h4>
+                    <p class="text-gray-600" href = "https://www.instagram.com/royalmanojverma?igsh=YThhbXZlbmZvcHRv">Instagram</p>
+                    <p class="text-gray-600" href = "https://www.facebook.com/royalmanojverma?mibextid=ZbWKwL">Facebook</p>
+                    <p class="text-gray-600" href = "https://youtube.com/@royalmanojverma3684?si=YqPEpCKgZYHg57zK">Youtube</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-700 mb-4">About the Website</h4>
+                    <p class="text-gray-600">We provide healthcare services and products.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
